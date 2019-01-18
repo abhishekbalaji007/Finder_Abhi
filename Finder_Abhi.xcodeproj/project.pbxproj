@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C03EBA121EFAFEB008E571E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBA021EFAFEB008E571E /* AppDelegate.swift */; };
+		3C03EBA321EFAFEB008E571E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBA221EFAFEB008E571E /* ViewController.swift */; };
+		3C03EBA621EFAFEB008E571E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03EBA421EFAFEB008E571E /* Main.storyboard */; };
+		3C03EBA821EFAFEC008E571E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C03EBA721EFAFEC008E571E /* Assets.xcassets */; };
+		3C03EBAB21EFAFEC008E571E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03EBA921EFAFEC008E571E /* LaunchScreen.storyboard */; };
+		3C03EBB621EFAFEC008E571E /* Finder_AbhiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBB521EFAFEC008E571E /* Finder_AbhiTests.swift */; };
+		3C03EBC121EFB990008E571E /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBC021EFB990008E571E /* SearchService.swift */; };
+		3C03EBC321EFB9AD008E571E /* SearchVC+SearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBC221EFB9AD008E571E /* SearchVC+SearchBarDelegate.swift */; };
+		3C03EBC521EFB9C7008E571E /* ArtworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBC421EFB9C7008E571E /* ArtworkTableViewCell.swift */; };
+		3C03EBC721EFB9DC008E571E /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBC621EFB9DC008E571E /* Media.swift */; };
+		3C03EBC921EFB9E9008E571E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C03EBC821EFB9E9008E571E /* Utility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C03EBB221EFAFEC008E571E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C03EB9521EFAFEB008E571E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C03EB9C21EFAFEB008E571E;
+			remoteInfo = Finder_Abhi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C03EB9D21EFAFEB008E571E /* Finder_Abhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finder_Abhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C03EBA021EFAFEB008E571E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C03EBA221EFAFEB008E571E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C03EBA521EFAFEB008E571E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C03EBA721EFAFEC008E571E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C03EBAA21EFAFEC008E571E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C03EBAC21EFAFEC008E571E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C03EBB121EFAFEC008E571E /* Finder_AbhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Finder_AbhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C03EBB521EFAFEC008E571E /* Finder_AbhiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finder_AbhiTests.swift; sourceTree = "<group>"; };
+		3C03EBB721EFAFEC008E571E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C03EBC021EFB990008E571E /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		3C03EBC221EFB9AD008E571E /* SearchVC+SearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchVC+SearchBarDelegate.swift"; sourceTree = "<group>"; };
+		3C03EBC421EFB9C7008E571E /* ArtworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkTableViewCell.swift; sourceTree = "<group>"; };
+		3C03EBC621EFB9DC008E571E /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		3C03EBC821EFB9E9008E571E /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C03EB9A21EFAFEB008E571E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C03EBAE21EFAFEC008E571E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C03EB9421EFAFEB008E571E = {
+			isa = PBXGroup;
+			children = (
+				3C03EB9F21EFAFEB008E571E /* Finder_Abhi */,
+				3C03EBB421EFAFEC008E571E /* Finder_AbhiTests */,
+				3C03EB9E21EFAFEB008E571E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C03EB9E21EFAFEB008E571E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C03EB9D21EFAFEB008E571E /* Finder_Abhi.app */,
+				3C03EBB121EFAFEC008E571E /* Finder_AbhiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C03EB9F21EFAFEB008E571E /* Finder_Abhi */ = {
+			isa = PBXGroup;
+			children = (
+				3C03EBA021EFAFEB008E571E /* AppDelegate.swift */,
+				3C03EBA221EFAFEB008E571E /* ViewController.swift */,
+				3C03EBA421EFAFEB008E571E /* Main.storyboard */,
+				3C03EBA721EFAFEC008E571E /* Assets.xcassets */,
+				3C03EBA921EFAFEC008E571E /* LaunchScreen.storyboard */,
+				3C03EBAC21EFAFEC008E571E /* Info.plist */,
+				3C03EBC021EFB990008E571E /* SearchService.swift */,
+				3C03EBC221EFB9AD008E571E /* SearchVC+SearchBarDelegate.swift */,
+				3C03EBC421EFB9C7008E571E /* ArtworkTableViewCell.swift */,
+				3C03EBC621EFB9DC008E571E /* Media.swift */,
+				3C03EBC821EFB9E9008E571E /* Utility.swift */,
+			);
+			path = Finder_Abhi;
+			sourceTree = "<group>";
+		};
+		3C03EBB421EFAFEC008E571E /* Finder_AbhiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C03EBB521EFAFEC008E571E /* Finder_AbhiTests.swift */,
+				3C03EBB721EFAFEC008E571E /* Info.plist */,
+			);
+			path = Finder_AbhiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C03EB9C21EFAFEB008E571E /* Finder_Abhi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C03EBBA21EFAFEC008E571E /* Build configuration list for PBXNativeTarget "Finder_Abhi" */;
+			buildPhases = (
+				3C03EB9921EFAFEB008E571E /* Sources */,
+				3C03EB9A21EFAFEB008E571E /* Frameworks */,
+				3C03EB9B21EFAFEB008E571E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finder_Abhi;
+			productName = Finder_Abhi;
+			productReference = 3C03EB9D21EFAFEB008E571E /* Finder_Abhi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C03EBB021EFAFEC008E571E /* Finder_AbhiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C03EBBD21EFAFEC008E571E /* Build configuration list for PBXNativeTarget "Finder_AbhiTests" */;
+			buildPhases = (
+				3C03EBAD21EFAFEC008E571E /* Sources */,
+				3C03EBAE21EFAFEC008E571E /* Frameworks */,
+				3C03EBAF21EFAFEC008E571E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C03EBB321EFAFEC008E571E /* PBXTargetDependency */,
+			);
+			name = Finder_AbhiTests;
+			productName = Finder_AbhiTests;
+			productReference = 3C03EBB121EFAFEC008E571E /* Finder_AbhiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C03EB9521EFAFEB008E571E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "BALAJI ABHISHEK";
+				TargetAttributes = {
+					3C03EB9C21EFAFEB008E571E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C03EBB021EFAFEC008E571E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C03EB9C21EFAFEB008E571E;
+					};
+				};
+			};
+			buildConfigurationList = 3C03EB9821EFAFEB008E571E /* Build configuration list for PBXProject "Finder_Abhi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C03EB9421EFAFEB008E571E;
+			productRefGroup = 3C03EB9E21EFAFEB008E571E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C03EB9C21EFAFEB008E571E /* Finder_Abhi */,
+				3C03EBB021EFAFEC008E571E /* Finder_AbhiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C03EB9B21EFAFEB008E571E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03EBAB21EFAFEC008E571E /* LaunchScreen.storyboard in Resources */,
+				3C03EBA821EFAFEC008E571E /* Assets.xcassets in Resources */,
+				3C03EBA621EFAFEB008E571E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C03EBAF21EFAFEC008E571E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C03EB9921EFAFEB008E571E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03EBC921EFB9E9008E571E /* Utility.swift in Sources */,
+				3C03EBC121EFB990008E571E /* SearchService.swift in Sources */,
+				3C03EBA321EFAFEB008E571E /* ViewController.swift in Sources */,
+				3C03EBC721EFB9DC008E571E /* Media.swift in Sources */,
+				3C03EBC521EFB9C7008E571E /* ArtworkTableViewCell.swift in Sources */,
+				3C03EBC321EFB9AD008E571E /* SearchVC+SearchBarDelegate.swift in Sources */,
+				3C03EBA121EFAFEB008E571E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C03EBAD21EFAFEC008E571E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C03EBB621EFAFEC008E571E /* Finder_AbhiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C03EBB321EFAFEC008E571E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C03EB9C21EFAFEB008E571E /* Finder_Abhi */;
+			targetProxy = 3C03EBB221EFAFEC008E571E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C03EBA421EFAFEB008E571E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C03EBA521EFAFEB008E571E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C03EBA921EFAFEC008E571E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C03EBAA21EFAFEC008E571E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C03EBB821EFAFEC008E571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C03EBB921EFAFEC008E571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C03EBBB21EFAFEC008E571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finder_Abhi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abhi.Finder-Abhi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C03EBBC21EFAFEC008E571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finder_Abhi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abhi.Finder-Abhi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C03EBBE21EFAFEC008E571E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finder_AbhiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abhi.Finder-AbhiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finder_Abhi.app/Finder_Abhi";
+			};
+			name = Debug;
+		};
+		3C03EBBF21EFAFEC008E571E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Finder_AbhiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "abhi.Finder-AbhiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finder_Abhi.app/Finder_Abhi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C03EB9821EFAFEB008E571E /* Build configuration list for PBXProject "Finder_Abhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C03EBB821EFAFEC008E571E /* Debug */,
+				3C03EBB921EFAFEC008E571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C03EBBA21EFAFEC008E571E /* Build configuration list for PBXNativeTarget "Finder_Abhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C03EBBB21EFAFEC008E571E /* Debug */,
+				3C03EBBC21EFAFEC008E571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C03EBBD21EFAFEC008E571E /* Build configuration list for PBXNativeTarget "Finder_AbhiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C03EBBE21EFAFEC008E571E /* Debug */,
+				3C03EBBF21EFAFEC008E571E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C03EB9521EFAFEB008E571E /* Project object */;
+}
